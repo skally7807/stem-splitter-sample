@@ -1,6 +1,6 @@
 """
 설치 명령어
-pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ hystemfx
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ hystemfx==0.1.2
 """
 
 from hystemfx.pipeline import run_pipeline, process_stem
